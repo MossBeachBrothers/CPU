@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1742276559">
+  <File Type="ROUTE-PWR" Name="cpu_core_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="cpu_core.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="cpu_core_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="cpu_core_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="cpu_core_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="cpu_core.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="cpu_core_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="cpu_core_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="cpu_core_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="cpu_core_opt.dcp"/>
+  <File Type="OPT-DRC" Name="cpu_core_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="cpu_core.hwdef"/>
+  <File Type="PWROPT-DCP" Name="cpu_core_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="cpu_core_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="cpu_core_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="cpu_core_placed.dcp"/>
+  <File Type="PLACE-IO" Name="cpu_core_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="cpu_core_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="cpu_core_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="cpu_core_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="cpu_core_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="cpu_core_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="cpu_core_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="cpu_core.bin"/>
+  <File Type="PLACE-TIMING" Name="cpu_core_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="cpu_core_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="cpu_core_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="cpu_core_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="cpu_core.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="cpu_core_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="cpu_core_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="cpu_core_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="cpu_core.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="cpu_core_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="cpu_core_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="cpu_core_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="cpu_core_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="cpu_core_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="cpu_core_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="cpu_core_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="cpu_core_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="cpu_core_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="cpu_core_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="cpu_core_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="cpu_core_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="cpu_core_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="cpu_core_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="cpu_core_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="cpu_core_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="cpu_core_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="cpu_core_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="cpu_core_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="cpu_core_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="cpu_core_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="cpu_core_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="cpu_core_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="cpu_core_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="cpu_core_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="cpu_core_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="cpu_core_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="cpu_core.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="cpu_core_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="cpu_core_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="cpu_core.nky"/>
+  <File Type="BITSTR-BMM" Name="cpu_core_bd.bmm"/>
+  <File Type="PDI-FILE" Name="cpu_core.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="cpu_core_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="cpu_core_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="cpu_core.rcfi"/>
+  <File Type="CFI_FILE" Name="cpu_core.cfi"/>
+  <File Type="RNPI_FILE" Name="cpu_core.rnpi"/>
+  <File Type="NPI_FILE" Name="cpu_core.npi"/>
+  <File Type="RBD_FILE" Name="cpu_core.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="cpu_core.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="cpu_core.sysdef"/>
+  <File Type="BG-BGN" Name="cpu_core.bgn"/>
+  <File Type="BG-DRC" Name="cpu_core.drc"/>
+  <File Type="RDI-RDI" Name="cpu_core.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="cpu_core_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="cpu_core_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/control_unit.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/control_unit.sv"/>
+        <Attr Name="ImportTime" Val="1725147707"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/cpu_core.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/cpu_core.sv"/>
+        <Attr Name="ImportTime" Val="1725147298"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/dccm_wrapper.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/dccm_wrapper.sv"/>
+        <Attr Name="ImportTime" Val="1724953057"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/iccm_wrapper.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/iccm_wrapper.sv"/>
+        <Attr Name="ImportTime" Val="1724953068"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/instruction_fetch_unit.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/instruction_fetch_unit.sv"/>
+        <Attr Name="ImportTime" Val="1725147071"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/peripheral.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/peripheral.sv"/>
+        <Attr Name="ImportTime" Val="1724953122"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/pll_wrapper.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/pll_wrapper.sv"/>
+        <Attr Name="ImportTime" Val="1725147580"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/start_sequence.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/start_sequence.sv"/>
+        <Attr Name="ImportTime" Val="1725146668"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/cpu_wrapper.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/cpu_wrapper.sv"/>
+        <Attr Name="ImportTime" Val="1725146817"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/start_sequence_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/spi_wrapper.sv">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/spi_wrapper.sv"/>
+        <Attr Name="ImportTime" Val="1724953190"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/flash_memory.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/flash_memory.sv"/>
+        <Attr Name="ImportTime" Val="1724953215"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/instruction_decode_unit.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RISCV/riscv_core/RTL/instruction_decode_unit.sv"/>
+        <Attr Name="ImportTime" Val="1725147104"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pll_wrapper_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/iccm_wrapper_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/program.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cpu_csr.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/instruction_fetch_unit_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_wrapper.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/spi_wrapper_tb.sv">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dccm_wrapper_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_wrapper_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mau.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mau_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control_unit_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tb_cpu_csr.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register_file.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register_file_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/instruction_decode_unit_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/program_counter.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/program_counter_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cpu_core_tb.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="cpu_core"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/pll_wrapper_tb.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_pll"/>
+  <BlockFileSet Type="BlockSrcs" Name="axi_quad_spi_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="axi_uartlite_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="axi_bram_ctrl_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="axi_emc_0"/>
+</GenRun>

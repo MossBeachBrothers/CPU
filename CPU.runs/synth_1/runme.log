@@ -1,0 +1,585 @@
+
+*** Running vivado
+    with args -log cpu_core.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpu_core.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source cpu_core.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 483.602 ; gain = 180.617
+Command: read_checkpoint -auto_incremental -incremental H:/VIVADO_PROJECTS/CPU/CPU.srcs/utils_1/imports/synth_1/pll_wrapper_tb.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from H:/VIVADO_PROJECTS/CPU/CPU.srcs/utils_1/imports/synth_1/pll_wrapper_tb.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top cpu_core -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 768
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1333.559 ; gain = 438.574
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_araddr', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:247]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_arburst', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:248]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_arid', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:249]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_arlen', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:250]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_arready', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:251]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_arvalid', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:252]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_rdata', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:255]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_rvalid', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:256]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_rready', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:257]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_awaddr', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:260]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_awburst', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:261]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_awid', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:262]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_awlen', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:263]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_awready', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:264]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_awvalid', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:265]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_wdata', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:268]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_wlast', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:269]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_wready', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:270]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_wvalid', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:271]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_bvalid', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:274]
+INFO: [Synth 8-11241] undeclared symbol 'dccm_axi_bready', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:275]
+INFO: [Synth 8-11241] undeclared symbol 'flash_addr', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/flash_memory.sv:121]
+INFO: [Synth 8-11241] undeclared symbol 'flash_data', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/flash_memory.sv:122]
+INFO: [Synth 8-11241] undeclared symbol 'flash_cs_n', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/flash_memory.sv:124]
+INFO: [Synth 8-11241] undeclared symbol 'flash_we_n', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/flash_memory.sv:125]
+INFO: [Synth 8-11241] undeclared symbol 'flash_oe_n', assumed default net type 'wire' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/flash_memory.sv:126]
+INFO: [Synth 8-6157] synthesizing module 'cpu_core' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'program_counter' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/program_counter.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'program_counter' (0#1) [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/program_counter.sv:24]
+WARNING: [Synth 8-7071] port 'jump_address' of module 'program_counter' is unconnected for instance 'pc_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:85]
+WARNING: [Synth 8-7071] port 'branch_taken' of module 'program_counter' is unconnected for instance 'pc_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:85]
+WARNING: [Synth 8-7023] instance 'pc_inst' of module 'program_counter' has 6 connections declared, but only 4 given [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:85]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:1]
+INFO: [Synth 8-226] default block is never used [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+INFO: [Synth 8-155] case statement is not full and has no default [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:186]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (0#1) [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'instruction_fetch_unit' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/instruction_fetch_unit.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_fetch_unit' (0#1) [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/instruction_fetch_unit.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (0#1) [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'iccm_wrapper' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/iccm_wrapper.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [H:/VIVADO_PROJECTS/CPU/CPU.runs/synth_1/.Xil/Vivado-10972-SIDPC/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (0#1) [H:/VIVADO_PROJECTS/CPU/CPU.runs/synth_1/.Xil/Vivado-10972-SIDPC/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'iccm_wrapper' (0#1) [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/iccm_wrapper.sv:3]
+WARNING: [Synth 8-6104] Input port 'iccm_axi_awready' has an internal driver [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:195]
+WARNING: [Synth 8-6104] Input port 'iccm_axi_wready' has an internal driver [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:200]
+WARNING: [Synth 8-6104] Input port 'iccm_axi_bvalid' has an internal driver [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:203]
+WARNING: [Synth 8-7071] port 's_axi_awsize' of module 'iccm_wrapper' is unconnected for instance 'iccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:173]
+WARNING: [Synth 8-7071] port 's_axi_bid' of module 'iccm_wrapper' is unconnected for instance 'iccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:173]
+WARNING: [Synth 8-7071] port 's_axi_bresp' of module 'iccm_wrapper' is unconnected for instance 'iccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:173]
+WARNING: [Synth 8-7071] port 's_axi_rid' of module 'iccm_wrapper' is unconnected for instance 'iccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:173]
+WARNING: [Synth 8-7071] port 's_axi_rlast' of module 'iccm_wrapper' is unconnected for instance 'iccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:173]
+WARNING: [Synth 8-7071] port 's_axi_rresp' of module 'iccm_wrapper' is unconnected for instance 'iccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:173]
+WARNING: [Synth 8-7071] port 's_axi_wstrb' of module 'iccm_wrapper' is unconnected for instance 'iccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:173]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'iccm_wrapper' is unconnected for instance 'iccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:173]
+WARNING: [Synth 8-7071] port 'rstb_busy' of module 'iccm_wrapper' is unconnected for instance 'iccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:173]
+WARNING: [Synth 8-7023] instance 'iccm_inst' of module 'iccm_wrapper' has 33 connections declared, but only 24 given [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:173]
+INFO: [Synth 8-6157] synthesizing module 'instruction_decode_unit' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/instruction_decode_unit.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_decode_unit' (0#1) [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/instruction_decode_unit.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'alu' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/alu.sv:3]
+INFO: [Synth 8-226] default block is never used [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/alu.sv:66]
+INFO: [Synth 8-226] default block is never used [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/alu.sv:93]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/alu.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'dccm_wrapper' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/dccm_wrapper.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'dccm_wrapper' (0#1) [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/dccm_wrapper.sv:3]
+WARNING: [Synth 8-689] width (1) of port connection 's_axi_rdata' does not match port width (32) of module 'dccm_wrapper' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:255]
+WARNING: [Synth 8-7071] port 's_axi_arsize' of module 'dccm_wrapper' is unconnected for instance 'dccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+WARNING: [Synth 8-7071] port 's_axi_awsize' of module 'dccm_wrapper' is unconnected for instance 'dccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+WARNING: [Synth 8-7071] port 's_axi_bid' of module 'dccm_wrapper' is unconnected for instance 'dccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+WARNING: [Synth 8-7071] port 's_axi_bresp' of module 'dccm_wrapper' is unconnected for instance 'dccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+WARNING: [Synth 8-7071] port 's_axi_rid' of module 'dccm_wrapper' is unconnected for instance 'dccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+WARNING: [Synth 8-7071] port 's_axi_rlast' of module 'dccm_wrapper' is unconnected for instance 'dccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+WARNING: [Synth 8-7071] port 's_axi_rresp' of module 'dccm_wrapper' is unconnected for instance 'dccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+WARNING: [Synth 8-7071] port 's_axi_wstrb' of module 'dccm_wrapper' is unconnected for instance 'dccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'dccm_wrapper' is unconnected for instance 'dccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+WARNING: [Synth 8-7071] port 'rstb_busy' of module 'dccm_wrapper' is unconnected for instance 'dccm_inst' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+WARNING: [Synth 8-7023] instance 'dccm_inst' of module 'dccm_wrapper' has 33 connections declared, but only 23 given [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:242]
+INFO: [Synth 8-6155] done synthesizing module 'cpu_core' (0#1) [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:3]
+WARNING: [Synth 8-7137] Register s_axi_araddr_reg in module instruction_fetch_unit has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/instruction_fetch_unit.sv:54]
+WARNING: [Synth 8-7137] Register s_axi_arburst_reg in module instruction_fetch_unit has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/instruction_fetch_unit.sv:55]
+WARNING: [Synth 8-7137] Register s_axi_arid_reg in module instruction_fetch_unit has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/instruction_fetch_unit.sv:56]
+WARNING: [Synth 8-7137] Register regfile_reg in module register_file has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code 
+WARNING: [Synth 8-4767] Trying to implement RAM 'regfile_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM is sensitive to asynchronous reset signal. this RTL style is not supported. 
+RAM "regfile_reg" dissolved into registers
+WARNING: [Synth 8-3848] Net iccm_axi_awaddr in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:9]
+WARNING: [Synth 8-3848] Net iccm_axi_awburst in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:10]
+WARNING: [Synth 8-3848] Net iccm_axi_awid in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:11]
+WARNING: [Synth 8-3848] Net iccm_axi_awlen in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:12]
+WARNING: [Synth 8-3848] Net iccm_axi_awvalid in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:13]
+WARNING: [Synth 8-3848] Net iccm_axi_wdata in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:16]
+WARNING: [Synth 8-3848] Net iccm_axi_wlast in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:17]
+WARNING: [Synth 8-3848] Net iccm_axi_wvalid in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:18]
+WARNING: [Synth 8-3848] Net iccm_axi_bready in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:21]
+WARNING: [Synth 8-3848] Net memory_read_data in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:69]
+WARNING: [Synth 8-3848] Net memory_read_data_valid in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:70]
+WARNING: [Synth 8-3848] Net memory_write_done in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:71]
+WARNING: [Synth 8-3848] Net dccm_axi_araddr in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:247]
+WARNING: [Synth 8-3848] Net dccm_axi_arburst in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:248]
+WARNING: [Synth 8-3848] Net dccm_axi_arid in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:249]
+WARNING: [Synth 8-3848] Net dccm_axi_arlen in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:250]
+WARNING: [Synth 8-3848] Net dccm_axi_arvalid in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:252]
+WARNING: [Synth 8-3848] Net dccm_axi_rready in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:257]
+WARNING: [Synth 8-3848] Net dccm_axi_awaddr in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:260]
+WARNING: [Synth 8-3848] Net dccm_axi_awburst in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:261]
+WARNING: [Synth 8-3848] Net dccm_axi_awid in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:262]
+WARNING: [Synth 8-3848] Net dccm_axi_awlen in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:263]
+WARNING: [Synth 8-3848] Net dccm_axi_awvalid in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:265]
+WARNING: [Synth 8-3848] Net dccm_axi_wdata in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:268]
+WARNING: [Synth 8-3848] Net dccm_axi_wlast in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:269]
+WARNING: [Synth 8-3848] Net dccm_axi_wvalid in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:271]
+WARNING: [Synth 8-3848] Net dccm_axi_bready in module/entity cpu_core does not have driver. [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:275]
+WARNING: [Synth 8-7129] Port rd[4] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rd[3] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rd[2] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rd[1] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rd[0] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs1_addr[4] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs1_addr[3] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs1_addr[2] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs1_addr[1] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs1_addr[0] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs2_addr[4] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs2_addr[3] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs2_addr[2] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs2_addr[1] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs2_addr[0] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_type[2] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_type[1] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_type[0] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct3[2] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct3[1] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct3[0] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[6] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[5] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[4] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[3] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[2] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[1] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port funct7[0] in module control_unit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1455.641 ; gain = 560.656
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_awready with 1st driver pin 'iccm_inst/blk_mem_inst/s_axi_awready' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/iccm_wrapper.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_awready with 2nd driver pin 'iccm_axi_awready' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:3]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_wready with 1st driver pin 'iccm_inst/blk_mem_inst/s_axi_wready' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/iccm_wrapper.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_wready with 2nd driver pin 'iccm_axi_wready' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:3]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_bvalid with 1st driver pin 'iccm_inst/blk_mem_inst/s_axi_bvalid' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/iccm_wrapper.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_bvalid with 2nd driver pin 'iccm_axi_bvalid' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:3]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        3|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1455.641 ; gain = 560.656
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1455.641 ; gain = 560.656
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1455.641 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'iccm_inst/blk_mem_inst'
+Finished Parsing XDC File [h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'iccm_inst/blk_mem_inst'
+Parsing XDC File [h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'dccm_inst/blk_mem_inst'
+Finished Parsing XDC File [h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'dccm_inst/blk_mem_inst'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1546.312 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1546.312 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1546.312 ; gain = 651.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1546.312 ; gain = 651.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for iccm_inst/blk_mem_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for dccm_inst/blk_mem_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1546.312 ; gain = 651.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint H:/VIVADO_PROJECTS/CPU/CPU.srcs/utils_1/imports/synth_1/pll_wrapper_tb.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1546.312 ; gain = 651.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1546.312 ; gain = 651.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'control_unit'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'instruction_fetch_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                         00000001 |                              000
+                   FETCH |                         00000010 |                              001
+                  DECODE |                         00000100 |                              010
+                READ_REG |                         00001000 |                              011
+                 EXECUTE |                         00010000 |                              100
+                MEM_READ |                         00100000 |                              101
+               MEM_WRITE |                         01000000 |                              110
+               WRITE_REG |                         10000000 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'control_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                   FETCH |                               01 |                               01
+                    WAIT |                               10 |                               10
+                    DONE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'instruction_fetch_unit'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1546.312 ; gain = 651.328
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 3     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 41    
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 11    
+	   4 Input   32 Bit        Muxes := 1     
+	   8 Input   32 Bit        Muxes := 5     
+	   6 Input   32 Bit        Muxes := 1     
+	   7 Input   32 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   9 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   8 Input    5 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 6     
+	   9 Input    5 Bit        Muxes := 3     
+	   9 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 1     
+	  10 Input    3 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 5     
+	   4 Input    1 Bit        Muxes := 9     
+	   2 Input    1 Bit        Muxes := 33    
+	  10 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port rd[4] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rd[3] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rd[2] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rd[1] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rd[0] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs1_addr[4] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs1_addr[3] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs1_addr[2] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs1_addr[1] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs1_addr[0] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs2_addr[4] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs2_addr[3] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs2_addr[2] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs2_addr[1] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rs2_addr[0] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_type[2] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_type[1] in module alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_type[0] in module alu is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1546.312 ; gain = 651.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1546.312 ; gain = 651.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1546.312 ; gain = 651.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1546.312 ; gain = 651.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1556.105 ; gain = 661.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1556.105 ; gain = 661.121
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_awready with 1st driver pin 'iccm_axi_awready' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:3]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_awready with 2nd driver pin 'iccm_inst/blk_mem_inst/s_axi_awready' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/iccm_wrapper.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_wready with 1st driver pin 'iccm_axi_wready' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:3]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_wready with 2nd driver pin 'iccm_inst/blk_mem_inst/s_axi_wready' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/iccm_wrapper.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_bvalid with 1st driver pin 'iccm_axi_bvalid' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/cpu_core.sv:3]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin iccm_axi_bvalid with 2nd driver pin 'iccm_inst/blk_mem_inst/s_axi_bvalid' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/iccm_wrapper.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[31] with 1st driver pin 'reg_read_data1_reg[31]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[31] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[31]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[30] with 1st driver pin 'reg_read_data1_reg[30]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[30] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[30]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[29] with 1st driver pin 'reg_read_data1_reg[29]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[29] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[29]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[28] with 1st driver pin 'reg_read_data1_reg[28]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[28] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[28]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[27] with 1st driver pin 'reg_read_data1_reg[27]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[27] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[27]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[26] with 1st driver pin 'reg_read_data1_reg[26]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[26] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[26]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[25] with 1st driver pin 'reg_read_data1_reg[25]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[25] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[25]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[24] with 1st driver pin 'reg_read_data1_reg[24]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[24] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[24]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[23] with 1st driver pin 'reg_read_data1_reg[23]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[23] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[23]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[22] with 1st driver pin 'reg_read_data1_reg[22]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[22] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[22]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[21] with 1st driver pin 'reg_read_data1_reg[21]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[21] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[21]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[20] with 1st driver pin 'reg_read_data1_reg[20]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[20] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[20]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[19] with 1st driver pin 'reg_read_data1_reg[19]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[19] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[19]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[18] with 1st driver pin 'reg_read_data1_reg[18]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[18] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[18]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[17] with 1st driver pin 'reg_read_data1_reg[17]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[17] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[17]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[16] with 1st driver pin 'reg_read_data1_reg[16]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[16] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[16]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[15] with 1st driver pin 'reg_read_data1_reg[15]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[15] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[15]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[14] with 1st driver pin 'reg_read_data1_reg[14]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[14] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[14]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[13] with 1st driver pin 'reg_read_data1_reg[13]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[13] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[13]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[12] with 1st driver pin 'reg_read_data1_reg[12]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[12] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[12]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[11] with 1st driver pin 'reg_read_data1_reg[11]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[11] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[11]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[10] with 1st driver pin 'reg_read_data1_reg[10]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[10] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[10]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[9] with 1st driver pin 'reg_read_data1_reg[9]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[9] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[9]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[8] with 1st driver pin 'reg_read_data1_reg[8]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[8] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[8]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[7] with 1st driver pin 'reg_read_data1_reg[7]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[7] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[7]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[6] with 1st driver pin 'reg_read_data1_reg[6]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[6] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[6]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[5] with 1st driver pin 'reg_read_data1_reg[5]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[5] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[5]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[4] with 1st driver pin 'reg_read_data1_reg[4]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[4] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[4]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[3] with 1st driver pin 'reg_read_data1_reg[3]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[3] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[3]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[2] with 1st driver pin 'reg_read_data1_reg[2]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[2] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[2]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[1] with 1st driver pin 'reg_read_data1_reg[1]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[1] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[1]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[0] with 1st driver pin 'reg_read_data1_reg[0]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data1[0] with 2nd driver pin 'reg_file_inst/reg_read_data1_reg[0]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[31] with 1st driver pin 'reg_read_data2_reg[31]_i_2__0/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[31] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[31]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[30] with 1st driver pin 'reg_read_data2_reg[30]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[30] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[30]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[29] with 1st driver pin 'reg_read_data2_reg[29]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[29] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[29]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[28] with 1st driver pin 'reg_read_data2_reg[28]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[28] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[28]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[27] with 1st driver pin 'reg_read_data2_reg[27]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[27] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[27]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[26] with 1st driver pin 'reg_read_data2_reg[26]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[26] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[26]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[25] with 1st driver pin 'reg_read_data2_reg[25]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[25] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[25]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[24] with 1st driver pin 'reg_read_data2_reg[24]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[24] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[24]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[23] with 1st driver pin 'reg_read_data2_reg[23]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[23] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[23]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[22] with 1st driver pin 'reg_read_data2_reg[22]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[22] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[22]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[21] with 1st driver pin 'reg_read_data2_reg[21]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[21] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[21]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[20] with 1st driver pin 'reg_read_data2_reg[20]_i_1/O' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/imports/RTL/control_unit.sv:96]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin reg_read_data2[20] with 2nd driver pin 'reg_file_inst/reg_read_data2_reg[20]/Q' [H:/VIVADO_PROJECTS/CPU/CPU.srcs/sources_1/new/register_file.sv:35]
+INFO: [Common 17-14] Message 'Synth 8-6859' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       67|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1556.105 ; gain = 661.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1556.105 ; gain = 661.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1556.105 ; gain = 661.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1556.105 ; gain = 661.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |blk_mem_gen_1 |         2|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |blk_mem_gen   |     1|
+|2     |blk_mem_gen_1 |     1|
+|3     |BUFG          |     1|
+|4     |CARRY4        |    70|
+|5     |LUT1          |     3|
+|6     |LUT2          |   204|
+|7     |LUT3          |   128|
+|8     |LUT4          |   265|
+|9     |LUT5          |   244|
+|10    |LUT6          |  1380|
+|11    |MUXF7         |   256|
+|12    |FDCE          |   326|
+|13    |FDPE          |     1|
+|14    |FDRE          |  1054|
+|15    |IBUF          |     3|
+|16    |OBUF          |    97|
+|17    |OBUFT         |    82|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1556.105 ; gain = 661.121
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 135 critical warnings and 19 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 1556.105 ; gain = 570.449
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1556.105 ; gain = 661.121
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1568.176 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 326 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1571.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Synth Design complete | Checksum: 2fdf37e9
+INFO: [Common 17-83] Releasing license: Synthesis
+72 Infos, 107 Warnings, 101 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:54 . Memory (MB): peak = 1571.828 ; gain = 1074.656
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1571.828 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'H:/VIVADO_PROJECTS/CPU/CPU.runs/synth_1/cpu_core.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file cpu_core_utilization_synth.rpt -pb cpu_core_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 17 22:42:28 2025...

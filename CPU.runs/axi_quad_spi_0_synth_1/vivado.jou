@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Sep 17 11:28:25 2024
+# Process ID: 3516
+# Current directory: H:/VIVADO_PROJECTS/CPU/CPU.runs/axi_quad_spi_0_synth_1
+# Command line: vivado.exe -log axi_quad_spi_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_quad_spi_0.tcl
+# Log file: H:/VIVADO_PROJECTS/CPU/CPU.runs/axi_quad_spi_0_synth_1/axi_quad_spi_0.vds
+# Journal file: H:/VIVADO_PROJECTS/CPU/CPU.runs/axi_quad_spi_0_synth_1\vivado.jou
+# Running On: SIDPC, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 16, Host memory: 34260 MB
+#-----------------------------------------------------------
+source axi_quad_spi_0.tcl -notrace

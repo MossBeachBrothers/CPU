@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="superglow" Host="SIDPC" Pid="6152" HostCore="16" HostMemory="034260635648">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="superglow" Host="SIDPC" Pid="14852" HostCore="16" HostMemory="034260635648">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="superglow" Host="SIDPC" Pid="2984" HostCore="16" HostMemory="034260635648">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="sidna" Host="SIDPC" Pid="8136" HostCore="16" HostMemory="034260635648">
+    </Process>
+</ProcessHandle>

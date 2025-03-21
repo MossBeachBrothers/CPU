@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CPU.gen/sources_1/ip/axi_bram_ctrl_0/sim/axi_bram_ctrl_0.vhd" \
+"../../../../CPU.gen/sources_1/ip/axi_emc_0/sim/axi_emc_0.vhd" \
+"../../../../CPU.gen/sources_1/ip/axi_uartlite_0/sim/axi_uartlite_0.vhd" \
+"../../../../CPU.gen/sources_1/ip/axi_quad_spi_0/sim/axi_quad_spi_0.vhd" \
+
+# Do not sort compile order
+nosort

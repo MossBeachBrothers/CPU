@@ -1,0 +1,131 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Mar 17 22:42:53 2025
+# Process ID: 4656
+# Current directory: H:/VIVADO_PROJECTS/CPU/CPU.runs/impl_1
+# Command line: vivado.exe -log cpu_core.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source cpu_core.tcl -notrace
+# Log file: H:/VIVADO_PROJECTS/CPU/CPU.runs/impl_1/cpu_core.vdi
+# Journal file: H:/VIVADO_PROJECTS/CPU/CPU.runs/impl_1\vivado.jou
+# Running On: SIDPC, OS: Windows, CPU Frequency: 3693 MHz, CPU Physical cores: 16, Host memory: 34260 MB
+#-----------------------------------------------------------
+source cpu_core.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 484.910 ; gain = 180.008
+Command: link_design -top cpu_core -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-454] Reading design checkpoint 'h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.dcp' for cell 'dccm_inst/blk_mem_inst'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 926.145 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 330 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 2 IBUFs to IO ports without IO buffers.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'clk_wiz_pll'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/clk_wiz_pll/clk_wiz_pll_board.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'clk_wiz_pll'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/clk_wiz_pll/clk_wiz_pll.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'clk_wiz_0'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'clk_wiz_0'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1281] Could not find module 'axi_emc_0'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/axi_emc_0/axi_emc_0_board.xdc will not be read for this module.
+CRITICAL WARNING: [Designutils 20-1281] Could not find module 'axi_emc_0'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/axi_emc_0/axi_emc_0.xdc will not be read for this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'axi_uartlite_0'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0_board.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'axi_uartlite_0'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/axi_uartlite_0/axi_uartlite_0.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'axi_quad_spi_0'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/axi_quad_spi_0/axi_quad_spi_0_board.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'axi_quad_spi_0'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/axi_quad_spi_0/axi_quad_spi_0.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'axi_quad_spi_0'. The XDC file h:/VIVADO_PROJECTS/CPU/CPU.gen/sources_1/ip/axi_quad_spi_0/axi_quad_spi_0_clocks.xdc will not be read for any cell of this module.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1029.723 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+
+9 Infos, 0 Warnings, 11 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1029.723 ; gain = 530.453
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net iccm_inst/blk_mem_inst/U0/inst_blk_mem_gen/gnbram.gaxibmg.axi_wr_fsm/axi_wr_fsm/s_axi_awready has multiple drivers: iccm_axi_awready_IBUF_inst/O, and iccm_inst/blk_mem_inst/U0/inst_blk_mem_gen/gnbram.gaxibmg.axi_wr_fsm/axi_wr_fsm/gaxi_full_sm.aw_ready_r_reg/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net iccm_inst/blk_mem_inst/U0/inst_blk_mem_gen/gnbram.gaxibmg.axi_wr_fsm/axi_wr_fsm/s_axi_wready has multiple drivers: iccm_inst/blk_mem_inst/U0/inst_blk_mem_gen/gnbram.gaxibmg.axi_wr_fsm/axi_wr_fsm/gaxi_full_sm.w_ready_r_reg/Q, and iccm_axi_wready.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net iccm_inst/blk_mem_inst/U0/inst_blk_mem_gen/gnbram.gaxibmg.axi_wr_fsm/gaxi_bvalid_id_r.bvalid_r_reg_0 has multiple drivers: iccm_axi_bvalid_IBUF_inst/O, and iccm_inst/blk_mem_inst/U0/inst_blk_mem_gen/gnbram.gaxibmg.axi_wr_fsm/gaxi_bvalid_id_r.bvalid_r_reg/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[0] has multiple drivers: cu_inst/reg_read_data1_reg[0]_i_1/O, and reg_file_inst/reg_read_data1_reg[0]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[10] has multiple drivers: cu_inst/reg_read_data1_reg[10]_i_1/O, and reg_file_inst/reg_read_data1_reg[10]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[11] has multiple drivers: cu_inst/reg_read_data1_reg[11]_i_1/O, and reg_file_inst/reg_read_data1_reg[11]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[12] has multiple drivers: cu_inst/reg_read_data1_reg[12]_i_1/O, and reg_file_inst/reg_read_data1_reg[12]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[13] has multiple drivers: cu_inst/reg_read_data1_reg[13]_i_1/O, and reg_file_inst/reg_read_data1_reg[13]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[14] has multiple drivers: cu_inst/reg_read_data1_reg[14]_i_1/O, and reg_file_inst/reg_read_data1_reg[14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[15] has multiple drivers: cu_inst/reg_read_data1_reg[15]_i_1/O, and reg_file_inst/reg_read_data1_reg[15]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[16] has multiple drivers: cu_inst/reg_read_data1_reg[16]_i_1/O, and reg_file_inst/reg_read_data1_reg[16]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[17] has multiple drivers: cu_inst/reg_read_data1_reg[17]_i_1/O, and reg_file_inst/reg_read_data1_reg[17]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[18] has multiple drivers: cu_inst/reg_read_data1_reg[18]_i_1/O, and reg_file_inst/reg_read_data1_reg[18]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[19] has multiple drivers: cu_inst/reg_read_data1_reg[19]_i_1/O, and reg_file_inst/reg_read_data1_reg[19]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[1] has multiple drivers: cu_inst/reg_read_data1_reg[1]_i_1/O, and reg_file_inst/reg_read_data1_reg[1]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[20] has multiple drivers: cu_inst/reg_read_data1_reg[20]_i_1/O, and reg_file_inst/reg_read_data1_reg[20]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[21] has multiple drivers: cu_inst/reg_read_data1_reg[21]_i_1/O, and reg_file_inst/reg_read_data1_reg[21]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[22] has multiple drivers: cu_inst/reg_read_data1_reg[22]_i_1/O, and reg_file_inst/reg_read_data1_reg[22]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[23] has multiple drivers: cu_inst/reg_read_data1_reg[23]_i_1/O, and reg_file_inst/reg_read_data1_reg[23]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[24] has multiple drivers: cu_inst/reg_read_data1_reg[24]_i_1/O, and reg_file_inst/reg_read_data1_reg[24]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[25] has multiple drivers: cu_inst/reg_read_data1_reg[25]_i_1/O, and reg_file_inst/reg_read_data1_reg[25]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[26] has multiple drivers: cu_inst/reg_read_data1_reg[26]_i_1/O, and reg_file_inst/reg_read_data1_reg[26]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[27] has multiple drivers: cu_inst/reg_read_data1_reg[27]_i_1/O, and reg_file_inst/reg_read_data1_reg[27]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[28] has multiple drivers: cu_inst/reg_read_data1_reg[28]_i_1/O, and reg_file_inst/reg_read_data1_reg[28]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[29] has multiple drivers: cu_inst/reg_read_data1_reg[29]_i_1/O, and reg_file_inst/reg_read_data1_reg[29]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[2] has multiple drivers: cu_inst/reg_read_data1_reg[2]_i_1/O, and reg_file_inst/reg_read_data1_reg[2]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[30] has multiple drivers: cu_inst/reg_read_data1_reg[30]_i_1/O, and reg_file_inst/reg_read_data1_reg[30]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[31] has multiple drivers: cu_inst/reg_read_data1_reg[31]_i_1/O, and reg_file_inst/reg_read_data1_reg[31]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[3] has multiple drivers: cu_inst/reg_read_data1_reg[3]_i_1/O, and reg_file_inst/reg_read_data1_reg[3]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[4] has multiple drivers: cu_inst/reg_read_data1_reg[4]_i_1/O, and reg_file_inst/reg_read_data1_reg[4]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[5] has multiple drivers: cu_inst/reg_read_data1_reg[5]_i_1/O, and reg_file_inst/reg_read_data1_reg[5]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[6] has multiple drivers: cu_inst/reg_read_data1_reg[6]_i_1/O, and reg_file_inst/reg_read_data1_reg[6]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[7] has multiple drivers: cu_inst/reg_read_data1_reg[7]_i_1/O, and reg_file_inst/reg_read_data1_reg[7]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[8] has multiple drivers: cu_inst/reg_read_data1_reg[8]_i_1/O, and reg_file_inst/reg_read_data1_reg[8]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/Q[9] has multiple drivers: cu_inst/reg_read_data1_reg[9]_i_1/O, and reg_file_inst/reg_read_data1_reg[9]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[0] has multiple drivers: cu_inst/reg_read_data2_reg[0]_i_1/O, and reg_file_inst/reg_read_data2_reg[0]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[10] has multiple drivers: cu_inst/reg_read_data2_reg[10]_i_1/O, and reg_file_inst/reg_read_data2_reg[10]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[11] has multiple drivers: cu_inst/reg_read_data2_reg[11]_i_1/O, and reg_file_inst/reg_read_data2_reg[11]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[12] has multiple drivers: cu_inst/reg_read_data2_reg[12]_i_1/O, and reg_file_inst/reg_read_data2_reg[12]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[13] has multiple drivers: cu_inst/reg_read_data2_reg[13]_i_1/O, and reg_file_inst/reg_read_data2_reg[13]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[14] has multiple drivers: cu_inst/reg_read_data2_reg[14]_i_1/O, and reg_file_inst/reg_read_data2_reg[14]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[15] has multiple drivers: cu_inst/reg_read_data2_reg[15]_i_1/O, and reg_file_inst/reg_read_data2_reg[15]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[16] has multiple drivers: cu_inst/reg_read_data2_reg[16]_i_1/O, and reg_file_inst/reg_read_data2_reg[16]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[17] has multiple drivers: cu_inst/reg_read_data2_reg[17]_i_1/O, and reg_file_inst/reg_read_data2_reg[17]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[18] has multiple drivers: cu_inst/reg_read_data2_reg[18]_i_1/O, and reg_file_inst/reg_read_data2_reg[18]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[19] has multiple drivers: cu_inst/reg_read_data2_reg[19]_i_1/O, and reg_file_inst/reg_read_data2_reg[19]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[1] has multiple drivers: cu_inst/reg_read_data2_reg[1]_i_1/O, and reg_file_inst/reg_read_data2_reg[1]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[20] has multiple drivers: cu_inst/reg_read_data2_reg[20]_i_1/O, and reg_file_inst/reg_read_data2_reg[20]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[21] has multiple drivers: cu_inst/reg_read_data2_reg[21]_i_1/O, and reg_file_inst/reg_read_data2_reg[21]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[22] has multiple drivers: cu_inst/reg_read_data2_reg[22]_i_1/O, and reg_file_inst/reg_read_data2_reg[22]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[23] has multiple drivers: cu_inst/reg_read_data2_reg[23]_i_1/O, and reg_file_inst/reg_read_data2_reg[23]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[24] has multiple drivers: cu_inst/reg_read_data2_reg[24]_i_1/O, and reg_file_inst/reg_read_data2_reg[24]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[25] has multiple drivers: cu_inst/reg_read_data2_reg[25]_i_1/O, and reg_file_inst/reg_read_data2_reg[25]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[26] has multiple drivers: cu_inst/reg_read_data2_reg[26]_i_1/O, and reg_file_inst/reg_read_data2_reg[26]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[27] has multiple drivers: cu_inst/reg_read_data2_reg[27]_i_1/O, and reg_file_inst/reg_read_data2_reg[27]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[28] has multiple drivers: cu_inst/reg_read_data2_reg[28]_i_1/O, and reg_file_inst/reg_read_data2_reg[28]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[29] has multiple drivers: cu_inst/reg_read_data2_reg[29]_i_1/O, and reg_file_inst/reg_read_data2_reg[29]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[2] has multiple drivers: cu_inst/reg_read_data2_reg[2]_i_1/O, and reg_file_inst/reg_read_data2_reg[2]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[30] has multiple drivers: cu_inst/reg_read_data2_reg[30]_i_1/O, and reg_file_inst/reg_read_data2_reg[30]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[31] has multiple drivers: cu_inst/reg_read_data2_reg[31]_i_2__0/O, and reg_file_inst/reg_read_data2_reg[31]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[3] has multiple drivers: cu_inst/reg_read_data2_reg[3]_i_1/O, and reg_file_inst/reg_read_data2_reg[3]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[4] has multiple drivers: cu_inst/reg_read_data2_reg[4]_i_1/O, and reg_file_inst/reg_read_data2_reg[4]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[5] has multiple drivers: cu_inst/reg_read_data2_reg[5]_i_1/O, and reg_file_inst/reg_read_data2_reg[5]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[6] has multiple drivers: cu_inst/reg_read_data2_reg[6]_i_1/O, and reg_file_inst/reg_read_data2_reg[6]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[7] has multiple drivers: cu_inst/reg_read_data2_reg[7]_i_1/O, and reg_file_inst/reg_read_data2_reg[7]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[8] has multiple drivers: cu_inst/reg_read_data2_reg[8]_i_1/O, and reg_file_inst/reg_read_data2_reg[8]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net reg_file_inst/UNCONN_OUT[9] has multiple drivers: cu_inst/reg_read_data2_reg[9]_i_1/O, and reg_file_inst/reg_read_data2_reg[9]/Q.
+INFO: [Project 1-461] DRC finished with 67 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1058.664 ; gain = 28.941
+INFO: [Common 17-83] Releasing license: Implementation
+14 Infos, 0 Warnings, 11 Critical Warnings and 68 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 17 22:43:16 2025...

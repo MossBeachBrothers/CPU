@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../CPU.ip_user_files/ipstatic" \
+"uart_wrapper_tb_func_synth.v" \
+
+# Do not sort compile order
+nosort
